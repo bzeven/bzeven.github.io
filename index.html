@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Oregon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="https://www.oregon.gov/Pages/index.aspx" target=”_blank” ><img src="images\Oregonflagfront.png" alt="Oregon flag front" class="header-logo1"></a>
+            <h1>Welcome to Oregon</h1>
+            <img src="images\Oregonflagback.png" alt="Oregon flag back" class="header-logo2">
+        </header>
+        <div class="content">
+            <aside class="sidebar">
+                <h2 style="text-align: center; margin-bottom: 20px;">Cities</h2>
+                <ul>
+                    <li style="list-style-type: none;">
+                        <div class="thumbnail">
+                            <a href="salem.html"><img src= images\salemflag.png alt="Salem flag"></a>
+                            <div class="thumbnail-info">
+                                <h3>Salem</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="list-style-type: none;"> 
+                        <div class="thumbnail">
+                            <a href="portland.html"><img src= images\portlandflag.png alt="Portland flag"></a>
+                            <div class="thumbnail-info">
+                                <h3>Portland</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="list-style-type: none;">
+                        <div class="thumbnail">
+                            <a href="medford.html"><img src= images\medfordseal.gif alt="medford seal" width="150px" height="150px"> </a>
+                            <div class="thumbnail-info">
+                                <h3>Medford</h3>
+                            </div>
+                        </div>   
+                    </li>
+                </ul>
+            </aside>
+            <main class="main">
+                <h2 style="font-size: 30pt; margin-bottom: 20px;">About Oregon</h2>
+                <div class="paragraph">
+                    <p>
+                        Nestled in the Pacific Northwest, Oregon is a <strong>top</strong> destination for nature lovers and cultural explorers. 
+                        The state boasts diverse landscapes, from the rugged Pacific coastline to the majestic Cascade Range.  
+                        Coastal towns like <em>Cannon Beach</em>, with its iconic Haystack Rock, and <em>Astoria</em>, rich in maritime history, 
+                        offer breathtaking views and charming atmospheres. The Oregon Coast Trail invites adventurers to hike dramatic 
+                        cliffs and serene forests, while the sandy shores are perfect for surfing, tide-pooling, and whale watching.<img id="oregon-outline" src="images\oregonOutline.png" alt="Oregon-Outline" width="230px">
+                    </p>
+                </div>
+                <div class="paragraph">
+                    <p>
+                        Oregon's smaller cities and towns each offer unique charm. <em>Eugene</em>, known for its vibrant arts scene and the 
+                        University of Oregon, features art galleries, theaters, and music festivals. <em>Bend</em>, in Central Oregon, is a 
+                        paradise for outdoor enthusiasts with activities like kayaking, rock climbing, and skiing near the Deschutes 
+                        River and Cascade Mountains. <em>Ashland</em>, home to the Oregon Shakespeare Festival, combines a love for the 
+                        performing arts with the natural beauty of the Rogue Valley.
+                    </p>
+                </div>
+                <div class="paragraph">
+                    <p>
+                        Further inland, the Willamette Valley, home to over 500 wineries, attracts wine aficionados with its renowned 
+                        Pinot Noir and numerous tasting tours. Eastern Oregon's high desert region contrasts with lush greenery, 
+                        featuring expansive open spaces and the striking Painted Hills. Crater Lake National Park, with its deep blue 
+                        waters in an ancient volcanic caldera, is a must-see, offering year-round outdoor activities. Whether for 
+                        outdoor adventures, cultural experiences, or both, Oregon's diverse landscapes and vibrant communities promise 
+                        an unforgettable visit.
+                    </p>
+                </div>
+                <div id="funfacts">
+                    <ol>
+                        <h4>Fun Facts</h3>
+                        <div>
+                            <li>
+                                State flag: Oregon is the only state to have a two faced flag. 
+                                The front shows a coat of arms and the back displays the state animal.
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                State birthday: Oregon's state birthday is Valentine's Day, February 14.
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                State nut: Oregon is the only state with an official state nut, 
+                                the hazelnut, also known as the filbert.
+                            </li>
+                        </div>
+                    </ol>
+                    <a style="text-align: center;" href="facts.html"><p>Click Here for more...</p></a>
+                </div>
+                <div style="background-color: transparent;"><button id = "guestbookButton">Guestbook</button></div>
+                <div id="guestbook-div">
+                    <h3 style="margin-bottom: 2%;">Sign our Guestbook!</h3>
+                    <div class="guestbook-counter">
+                        <p>Guestbook Entries: <span id="guestbookCounter">1110</span></p>
+                    </div>
+                    <div>
+                        <form id="nameForm">
+                            <label for="Name">Enter First Name:</label>
+                            <input type="text" id="firstName" name="First Name" required>
+                            <label for="Name">Enter Last Name:</label>
+                            <input type="text" id="lastLetter" name="Last Name" required maxlength="1">
+                        </form>
+                        <form id="emailForm"> 
+                            <label for="email">Enter Email:</label>
+                            <input type="email" id="emailEntry" name="Email" required>
+                            <label for="confirmEmail">Confirm Email:</label>
+                            <input type="email" id="confirmEmail" name="Email" required>
+                            <p id="confirmationMessage" style="margin-top: 1%; font-weight: bold; color: red;">
+                                -P14c3h01d3r- 
+                            </p>
+                            <button id="confirmButton" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>            
+            </main>
+        </div>
+        <footer class="footer">
+            <div>
+                <nav>
+                    <a href="index.html"><h4>Home</h4></a>
+                    <a href="salem.html"><h4>Salem</h4></a>
+                    <a href="portland.html"><h4>Portland</h4></a>
+                    <a href="medford.html"><h4>Medford</h4></a>
+                    <a href="facts.html"><h4>Facts</h4></a>
+                    <a href="about.html"><h4>About</h4></a>
+                </nav> 
+            </div>
+
+        </footer>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
